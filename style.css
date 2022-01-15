@@ -69,6 +69,18 @@ a{
     padding-left: 40%;
     color: #3A3A3A;
 }
-.detail{
-    margin-left: 30px;
+
+.div-3 img{
+  width: 200px;
+  padding-left: 15px;
+}
+.div-4{
+    padding-left: 40px;
+    width: 150px;
+}
+.fas{
+    color: chocolate;
+}
+.half{
+    color: darkgoldenrod;
 }
