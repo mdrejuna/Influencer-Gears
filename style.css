@@ -1,17 +1,19 @@
+      /* start my styles */
 @import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Poppins:wght@300;400;500&display=swap');
 body{
     font-family: 'Luxurious Roman', cursive;
-font-family: 'Poppins', sans-serif; 
+    font-family: 'Poppins', sans-serif; 
     display: flex;
-   justify-content: center;
+    justify-content: center;
     background: #AAAAAA;
     }
 main{
   
-    background: #ffff;
+     background: #ffff;
      width: 90%;
      height: 100%;
 }
+     /* contents styles */
 .announce{
     font-weight: 582px;
     font-size: 40px;
@@ -44,6 +46,7 @@ main{
 .div-1{
     margin-bottom: 10px;
 }
+    /* apply annimation */
 .camera img{
     width: 270px;
     height: 214px;
@@ -80,7 +83,7 @@ a{
     margin-left: 20px;
     margin-top: 50px;
     margin-bottom: 65px;
-  padding-right: 20px;
+    padding-right: 20px;
     
 }
 .logo{
@@ -144,6 +147,11 @@ small{
     width: 73%;
     transform: rotate(180deg);
 }
+.video{
+    padding-left: 22%;
+    width: 30%;
+    height: 35%;
+}
 .section-4{
     background: rgb(5, 5, 39);
     height: 220px;
@@ -153,6 +161,51 @@ footer{
     text-align: center;
     padding-top: 25px;
 }
+/* ------------ Media Queries --------- */
+              /* For mobile  */
+@media only screen and (max-width:688px) {
+    body{
+        width: 100%;
+        height: 100%;
+    }
+    main{
+        width: 100%;
+        height: 100%;
+    }
+    .section-1, .section-3, .special{
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+    }
+    .logos, .section-2{
+        width: 100%;
+        height: 100%;
+    }
+    .section-4{
+    width: 100%;
+    }
 
+}
+              /* tablet devices */
+@media only screen and (min-width:688px) and (max-width:992px) {
+    body{
+        width: 100%;
+        height: 100%;
+    }
+    main{
+        width: 100%;
+        height: 100%;
+    }
+    .section-1, .section-3, .special{
+        grid-template-columns: repeat(2, 1fr);
+        flex-direction: column;
+    }
+    .logos, .section-2{
+        width: 100%;
+        height: 100%;
+    }
+    .section-4{
+    width: 100%;
+    }
+}
 
 
