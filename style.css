@@ -5,12 +5,12 @@ font-family: 'Poppins', sans-serif;
     display: flex;
    justify-content: center;
     background: #AAAAAA;
-    
-}
+    }
 main{
   
     background: #ffff;
      width: 90%;
+     height: 3000px;
 }
 .announce{
     font-weight: 582px;
@@ -19,10 +19,12 @@ main{
   .para-0{
       margin-bottom: 25px;
   }
-   
-    
-
-
+  .fa-star{
+    color: chocolate;
+}
+.fa-star-half-alt{
+    color: chocolate;  
+}
 .section-1{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -41,6 +43,7 @@ main{
 }
 .para-1{
     margin-bottom: 100px;
+
    
 }
 .div-2 img{
@@ -71,16 +74,50 @@ a{
 }
 
 .div-3 img{
-  width: 200px;
-  padding-left: 15px;
+  width: 230px;
+  padding: 8px;
 }
 .div-4{
-    padding-left: 40px;
-    width: 150px;
+   padding-left: 40px;
+   height: 45px;
 }
-.fas{
-    color: chocolate;
-}
+
 .half{
     color: darkgoldenrod;
 }
+
+.product{
+    width: 250px;
+    height: 440px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 16px;
+}
+.section-3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 35px;
+   
+    
+  
+    
+}
+small{
+ color: blue;
+ padding-left: 30%;
+}
+.section-4{
+    background: rgb(5, 5, 39);
+    height: 220px;
+}
+footer{
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+}
+
+
+
+
