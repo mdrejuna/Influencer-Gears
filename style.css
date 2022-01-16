@@ -10,7 +10,7 @@ main{
   
     background: #ffff;
      width: 90%;
-     height: 3000px;
+     height: 100%;
 }
 .announce{
     font-weight: 582px;
@@ -34,6 +34,9 @@ main{
     padding-top: 30px;
     
 }
+.para-1{
+    margin-bottom: 100px;
+}
 .section-title{
   margin-bottom: 125px;
   font-weight: 243px;
@@ -41,14 +44,15 @@ main{
 .div-1{
     margin-bottom: 10px;
 }
-.para-1{
-    margin-bottom: 100px;
-
-   
-}
-.div-2 img{
+.camera img{
     width: 270px;
     height: 214px;
+    transition: width 2s, height 2s, transform 3s;
+}
+.camera img:hover {
+    width: 370px;
+    height: 314px;
+    transform: rotate(360deg);
 }
 .div-2{
     margin-left: 100px;
@@ -72,6 +76,22 @@ a{
     padding-left: 40%;
     color: #3A3A3A;
 }
+.logos{
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 65px;
+  padding-right: 20px;
+    
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    column-gap: 16px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding: 20px;}
+
 
 .div-3 img{
   width: 230px;
@@ -105,8 +125,24 @@ a{
     
 }
 small{
- color: blue;
- padding-left: 30%;
+    color: blue;
+    padding-left: 30%;
+   }
+
+
+.special{
+    display: flex;
+    padding: 35px;
+    margin-left: 55px;
+
+}
+.special img{
+    width: 70%;
+    transition: width 3s, transform 3s;
+}
+.special img:hover{
+    width: 73%;
+    transform: rotate(180deg);
 }
 .section-4{
     background: rgb(5, 5, 39);
@@ -117,7 +153,6 @@ footer{
     text-align: center;
     padding-top: 25px;
 }
-
 
 
 
